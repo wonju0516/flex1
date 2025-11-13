@@ -1,0 +1,267 @@
+<svg width="1440" height="1024" viewBox="0 0 1440 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1440" y2="1024" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1220" />
+      <stop offset="1" stop-color="#1A1F2F" />
+    </linearGradient>
+    <linearGradient id="posterGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F43F5E" />
+      <stop offset="1" stop-color="#FB7185" />
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F97316" />
+      <stop offset="1" stop-color="#FACC15" />
+    </linearGradient>
+    <linearGradient id="secondaryGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#2563EB" />
+      <stop offset="1" stop-color="#38BDF8" />
+    </linearGradient>
+    <linearGradient id="cardGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#111827" />
+      <stop offset="1" stop-color="#1F2937" />
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feGaussianBlur in="SourceAlpha" stdDeviation="12" result="shadowBlur"/>
+      <feOffset dy="20" dx="0"/>
+      <feComposite in2="shadowBlur" operator="out"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.035 0 0 0 0 0.043 0 0 0 0 0.08 0 0 0 0.45 0"/>
+      <feBlend in="SourceGraphic" mode="normal"/>
+    </filter>
+    <style>
+      text {
+        font-family: 'Inter', 'Pretendard', 'Noto Sans KR', sans-serif;
+        fill: #F9FAFB;
+      }
+      .nav-label {
+        font-size: 15px;
+        font-weight: 500;
+        fill: #E2E8F0;
+        letter-spacing: 0.02em;
+      }
+      .nav-active {
+        fill: #F97316;
+      }
+      .heading-lg {
+        font-size: 38px;
+        font-weight: 700;
+        letter-spacing: -0.02em;
+      }
+      .heading-sm {
+        font-size: 18px;
+        font-weight: 600;
+        fill: #E2E8F0;
+      }
+      .body {
+        font-size: 16px;
+        font-weight: 400;
+        fill: #CBD5F5;
+      }
+      .eyebrow {
+        font-size: 13px;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.3em;
+        fill: #94A3B8;
+      }
+      .label {
+        font-size: 13px;
+        font-weight: 500;
+        fill: #F8FAFC;
+      }
+    </style>
+  </defs>
+  <rect width="1440" height="1024" fill="url(#bgGradient)" />
+
+  <!-- Ambient shapes -->
+  <circle cx="180" cy="160" r="120" fill="#F97316" opacity="0.08" />
+  <circle cx="1220" cy="220" r="160" fill="#38BDF8" opacity="0.06" />
+  <circle cx="1260" cy="860" r="200" fill="#FB7185" opacity="0.05" />
+
+  <!-- Navigation bar -->
+  <g filter="url(#softShadow)">
+    <rect x="64" y="48" width="1312" height="72" rx="18" fill="rgba(15, 23, 42, 0.65)" />
+  </g>
+  <text x="108" y="97" font-size="28" font-weight="700" fill="#F43F5E">CGV</text>
+  <text x="208" y="94" class="nav-label nav-active">예매</text>
+  <text x="284" y="94" class="nav-label">상영시간표</text>
+  <text x="412" y="94" class="nav-label">스토어</text>
+  <text x="508" y="94" class="nav-label">이벤트</text>
+  <text x="608" y="94" class="nav-label">VIP 라운지</text>
+  <g>
+    <rect x="996" y="67" width="144" height="34" rx="17" fill="rgba(71, 85, 105, 0.35)" />
+    <text x="1022" y="90" class="label" fill="#E2E8F0">Search movies, theaters...</text>
+  </g>
+  <text x="1186" y="94" class="nav-label">관심목록</text>
+  <text x="1284" y="94" class="nav-label">KR ▾</text>
+  <g>
+    <rect x="1348" y="67" width="24" height="24" rx="12" fill="#F97316" />
+    <text x="1355" y="84" font-size="12" font-weight="600" text-anchor="middle">J</text>
+  </g>
+
+  <!-- Hero section -->
+  <g filter="url(#softShadow)">
+    <rect x="96" y="152" width="880" height="364" rx="28" fill="rgba(17, 24, 39, 0.7)" />
+  </g>
+  <rect x="132" y="188" width="220" height="330" rx="18" fill="url(#posterGradient)" />
+  <g>
+    <text x="382" y="222" class="eyebrow">오리지널 프리미어</text>
+    <text x="382" y="270" class="heading-lg">서치: 파운드 테이프</text>
+    <text x="382" y="308" class="heading-sm">스릴러 · 122분 · 15세 이상</text>
+    <text x="382" y="344" class="body">사라진 가족의 흔적을 찾아 온라인 세계를 뒤지는 몰입형 실시간 추격 스릴러. 관객 참여형 인터랙티브 상영으로 다시 돌아옵니다.</text>
+    <g>
+      <rect x="382" y="372" width="118" height="34" rx="17" fill="rgba(59, 130, 246, 0.25)" />
+      <text x="400" y="394" class="label">IMAX 레이저</text>
+    </g>
+    <g>
+      <rect x="508" y="372" width="132" height="34" rx="17" fill="rgba(139, 92, 246, 0.25)" />
+      <text x="526" y="394" class="label">4DX 체험형</text>
+    </g>
+    <g>
+      <rect x="382" y="420" width="280" height="54" rx="12" fill="url(#secondaryGradient)" />
+      <text x="402" y="452" font-size="16" font-weight="600">빠른 예매 · 오늘 오후 7:10, 용산아이파크몰</text>
+    </g>
+    <g>
+      <rect x="672" y="420" width="160" height="54" rx="12" fill="rgba(148, 163, 184, 0.15)" />
+      <text x="692" y="452" font-size="16" font-weight="600" fill="#E2E8F0">트레일러 보기</text>
+    </g>
+  </g>
+
+  <!-- Date carousel -->
+  <g>
+    <text x="96" y="560" class="heading-sm">상영일 선택</text>
+    <g>
+      <rect x="96" y="580" width="104" height="52" rx="16" fill="url(#accentGradient)" />
+      <text x="120" y="614" font-size="16" font-weight="600">오늘</text>
+      <text x="120" y="594" class="label" fill="#FDE68A">4월 12일 금</text>
+    </g>
+    <g>
+      <rect x="212" y="580" width="104" height="52" rx="16" fill="rgba(148, 163, 184, 0.18)" />
+      <text x="236" y="614" font-size="16" font-weight="600">토</text>
+      <text x="236" y="594" class="label" fill="#CBD5F5">4월 13일</text>
+    </g>
+    <g>
+      <rect x="328" y="580" width="104" height="52" rx="16" fill="rgba(148, 163, 184, 0.08)" stroke="rgba(148, 163, 184, 0.32)" />
+      <text x="352" y="614" font-size="16" font-weight="600">일</text>
+      <text x="352" y="594" class="label" fill="#CBD5F5">4월 14일</text>
+    </g>
+    <g opacity="0.5">
+      <rect x="444" y="580" width="104" height="52" rx="16" fill="rgba(148, 163, 184, 0.08)" stroke="rgba(148, 163, 184, 0.24)" />
+      <text x="468" y="614" font-size="16" font-weight="500" fill="#CBD5F5">월</text>
+      <text x="468" y="594" class="label" fill="#94A3B8">4월 15일</text>
+    </g>
+  </g>
+
+  <!-- Theater & format filters -->
+  <g>
+    <text x="96" y="668" class="heading-sm">극장 & 포맷</text>
+    <g>
+      <rect x="96" y="684" width="188" height="52" rx="16" fill="rgba(59, 130, 246, 0.18)" />
+      <text x="118" y="716" font-size="15" font-weight="600">용산아이파크몰</text>
+      <text x="118" y="698" class="label" fill="#BFDBFE">서울 · IMAX</text>
+    </g>
+    <g>
+      <rect x="296" y="684" width="168" height="52" rx="16" fill="rgba(139, 92, 246, 0.18)" />
+      <text x="318" y="716" font-size="15" font-weight="600">포맷: IMAX 레이저</text>
+    </g>
+    <g>
+      <rect x="476" y="684" width="148" height="52" rx="16" fill="rgba(148, 163, 184, 0.1)" />
+      <text x="498" y="716" font-size="15" font-weight="600" fill="#E2E8F0">좌석: 프라임 박스</text>
+    </g>
+    <g>
+      <rect x="640" y="684" width="148" height="52" rx="16" fill="rgba(148, 163, 184, 0.1)" />
+      <text x="662" y="716" font-size="15" font-weight="600" fill="#E2E8F0">언어: 자막</text>
+    </g>
+  </g>
+
+  <!-- Showtime cards -->
+  <g>
+    <text x="96" y="780" class="heading-sm">오늘의 상영</text>
+    <g filter="url(#softShadow)">
+      <rect x="96" y="800" width="244" height="176" rx="22" fill="url(#cardGradient)" />
+    </g>
+    <text x="124" y="836" class="label" fill="#F8FAFC">7:10 PM</text>
+    <text x="124" y="858" class="body">IMAX · 2D</text>
+    <text x="124" y="888" class="body">여유 좌석 42 / 120</text>
+    <g>
+      <rect x="124" y="904" width="116" height="34" rx="10" fill="url(#accentGradient)" />
+      <text x="142" y="926" font-size="14" font-weight="600">좌석 선택</text>
+    </g>
+
+    <g filter="url(#softShadow)">
+      <rect x="356" y="800" width="244" height="176" rx="22" fill="rgba(17, 24, 39, 0.65)" />
+    </g>
+    <text x="384" y="836" class="label" fill="#F8FAFC">9:40 PM</text>
+    <text x="384" y="858" class="body">ScreenX · 2D</text>
+    <text x="384" y="888" class="body" fill="#FCA5A5">잔여 좌석 12 / 120</text>
+    <g>
+      <rect x="384" y="904" width="116" height="34" rx="10" fill="rgba(248, 250, 252, 0.08)" stroke="rgba(248, 250, 252, 0.18)" />
+      <text x="402" y="926" font-size="14" font-weight="600">좌석 선택</text>
+    </g>
+
+    <g filter="url(#softShadow)">
+      <rect x="616" y="800" width="244" height="176" rx="22" fill="rgba(17, 24, 39, 0.45)" />
+    </g>
+    <text x="644" y="836" class="label" fill="#F8FAFC">11:55 PM</text>
+    <text x="644" y="858" class="body">4DX · 3D</text>
+    <text x="644" y="888" class="body" fill="#FACC15">마감 임박 · 4석</text>
+    <g>
+      <rect x="644" y="904" width="116" height="34" rx="10" fill="rgba(248, 250, 252, 0.08)" stroke="rgba(248, 250, 252, 0.18)" />
+      <text x="662" y="926" font-size="14" font-weight="600">좌석 선택</text>
+    </g>
+  </g>
+
+  <!-- Booking summary panel -->
+  <g filter="url(#softShadow)">
+    <rect x="1016" y="152" width="328" height="548" rx="32" fill="rgba(15, 23, 42, 0.68)" />
+  </g>
+  <text x="1060" y="204" class="heading-sm">빠른 예약</text>
+  <text x="1060" y="232" class="body">선택한 좌석과 혜택을 확인하고 결제를 완료하세요.</text>
+
+  <g>
+    <text x="1060" y="284" class="label" fill="#CBD5F5">영화</text>
+    <text x="1060" y="308" class="heading-sm">서치: 파운드 테이프</text>
+    <line x1="1060" y1="320" x2="1308" y2="320" stroke="rgba(148, 163, 184, 0.3)" stroke-width="1" />
+  </g>
+
+  <g>
+    <text x="1060" y="352" class="label" fill="#CBD5F5">극장</text>
+    <text x="1060" y="376" class="body">CGV 용산아이파크몰 · 7:10 PM</text>
+    <line x1="1060" y1="388" x2="1308" y2="388" stroke="rgba(148, 163, 184, 0.3)" stroke-width="1" />
+  </g>
+
+  <g>
+    <text x="1060" y="420" class="label" fill="#CBD5F5">좌석</text>
+    <text x="1060" y="444" class="body">프라임 박스 | G12, G13</text>
+    <line x1="1060" y1="456" x2="1308" y2="456" stroke="rgba(148, 163, 184, 0.3)" stroke-width="1" />
+  </g>
+
+  <g>
+    <text x="1060" y="488" class="label" fill="#CBD5F5">혜택</text>
+    <rect x="1060" y="500" width="164" height="38" rx="12" fill="rgba(244, 63, 94, 0.25)" />
+    <text x="1078" y="524" font-size="14" font-weight="600">CGV VIP · 2,000P 사용</text>
+  </g>
+
+  <g>
+    <text x="1060" y="586" class="label" fill="#CBD5F5">결제 금액</text>
+    <text x="1060" y="618" class="heading-lg" font-size="32">₩27,400</text>
+  </g>
+
+  <g>
+    <rect x="1060" y="650" width="260" height="58" rx="16" fill="url(#accentGradient)" />
+    <text x="1090" y="688" font-size="18" font-weight="700">좌석 선택 & 결제 진행</text>
+  </g>
+
+  <g>
+    <rect x="1060" y="724" width="260" height="64" rx="18" fill="rgba(148, 163, 184, 0.1)" stroke="rgba(148, 163, 184, 0.24)" />
+    <text x="1088" y="748" font-size="15" font-weight="600" fill="#E2E8F0">Apple Pay로 빠른 결제</text>
+    <text x="1088" y="772" font-size="13" fill="#94A3B8">Face ID로 간편 인증</text>
+  </g>
+
+  <!-- Floating assistant -->
+  <g filter="url(#softShadow)">
+    <rect x="1240" y="860" width="132" height="72" rx="28" fill="rgba(17, 24, 39, 0.75)" />
+  </g>
+  <text x="1264" y="896" font-size="14" font-weight="600">실시간 케어봇</text>
+  <text x="1264" y="918" font-size="12" fill="#CBD5F5">오후 7:10 관람 시 꿀팁</text>
+</svg>
